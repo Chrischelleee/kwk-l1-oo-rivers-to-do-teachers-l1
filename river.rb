@@ -1,39 +1,8 @@
 # river.rb
 class River
+  attr_accessor :name, :length, :countries, :discharge
   def initialize(name)
     @name = name
-  end
-
-  def name=(name)
-    @name = name
-  end
-
-  def name
-    @name
-  end
-
-  def length=(num)
-    @length = num
-  end
-
-  def length
-    @length
-  end
-
-  def countries=(countries)
-    @countries = countries
-  end
-
-  def countries
-    @countries
-  end
-
-  def discharge=(discharge)
-    @discharge = discharge
-  end
-
-  def discharge
-    @discharge
   end
 
   def flood
