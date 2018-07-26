@@ -13,3 +13,7 @@ class River
     @discharge = @discharge * 0.5
   end
 end
+
+rivers = []
+The_Nile = River.new("The Nile")
+rivers.push("The Nile")
